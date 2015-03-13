@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+.body-left {
+	background: #f7f7f7;
+	margin: 0px!important;
+	padding: 0px!important;
+	border-right: 1px solid #ebebeb;
+	height: 640px;
+}
+
+.logo{
+	position: relative;
+	overflow: hidden;
+	height: 150px;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.logo img{
+	position: absolute;
+	margin: 20px;
+	left: 30px;
+}
+
+.body-left a:hover{
+	text-decoration: none;
+
+}
+.menu-1{
+	border-bottom: 1px solid #ebebeb;
+	height: 40px;
+	overflow: hidden;
+	padding: 10px 0px 10px 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #848484;
+	width: 220px;
+}
+
+.submenu{
+	display: none;
+}
+.menu-2{
+	border-bottom: 1px solid #ebebeb;
+	height: 40px;
+	overflow: hidden;
+}
+.menu-2 a{
+	position: absolute;
+	padding: 10px 50px 10px 20px;
+	text-transform: uppercase;
+	color: #848484;
+	font-size: 12px;
+}
+.active{
+	display: block;
+}
+
+
+.body-right{
+
+}
+
+.body-right table{
+	border-bottom: 1px solid #ebebeb;
+}
+.body-right table tr td{
+	border-right: 1px solid #ebebeb;
+	text-align: center;
+}
+
+.contain{
+	height: 550px;
+	border-bottom: 1px solid #ebebeb;
+	padding: 20px;
+	overflow: hidden;
+}
+.contain table tr td{
+	border-right: 1px solid #ebebeb;
+	text-align: left;
+	padding: 15px;
+}
+
+.add input{
+	width: 100%;
+}
+
+.add textarea{
+	width: 100%;
+	height: 200px;
+}
+
+.add-user input{
+	width: 30%;
+}
+
+.but-acc{
+	width: 10%!important;
+	margin-top: 20px;
+}
+
+.but{
+	float: right!important;
+	width: 100px!important;
+}
+
+#post table{
+	border: 1px solid #ebebeb;
+}
+.menu-active {
+	color: red !important;
+	background: #fff !important;
+	border: none !important;
+	width: 101%;
+	font-weight: bold;
+}
+.add option{
+	padding-left: 20px;
+}
+
+.page{
+	float: right;
+	margin-top: 10px;
+}
+
+.page a{
+	margin-left: 5px;
+}
+
+.page span{
+	margin-left: 5px;
+}
+
+.ava-admin{
+	margin-right: 20px;
+	border-radius: 3px;
+}

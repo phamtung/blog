@@ -1,0 +1,9 @@
+<?php
+require_once('/class/database.php');
+require_once('/class/post.php');
+require_once('/class/title.php');
+require_once('/class/user.php');
+require_once('/class/pagination.php');
+require_once('/class/comment.php');
+require_once('/class/menu.php');
+require_once('/function/library.php');
